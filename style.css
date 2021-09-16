@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+body {
+    width: 100%;
+    height: 100vh;
+}
+::selection {
+    background: #0002;
+    color: #fff;
+}
+section {
+    padding: 200px;
+    width: 100%;
+    height: 100vh;
+    background: #0026ff;
+    color: #fff;
+    /* center */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+section:nth-child(2) {
+    background: #111317;
+}
+section:nth-child(3) {
+    background: #ff0040;
+}
+section h2 {
+    font-size: 60px;
+    line-height: 120px;
+}
+section p {
+    font-size: 24px;
+}
